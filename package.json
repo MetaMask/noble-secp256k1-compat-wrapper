@@ -1,0 +1,14 @@
+{
+  "name": "noble-secp256k1-compat-wrapper",
+  "version": "1.0.1",
+  "description": "A wrapper to directly resolve the noble-secp256k1 compatibility layer exposed by ethereum-cryptography",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ethereum-cryptography": "^1.1.2"
+  }
+}
