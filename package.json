@@ -1,5 +1,5 @@
 {
-  "name": "noble-secp256k1-compat-wrapper",
+  "name": "@metamask/noble-secp256k1-compat-wrapper",
   "version": "1.0.2",
   "description": "A wrapper to directly resolve the noble-secp256k1 compatibility layer exposed by ethereum-cryptography",
   "main": "index.js",
@@ -10,5 +10,9 @@
   "license": "ISC",
   "dependencies": {
     "ethereum-cryptography": "^1.1.2"
-  }
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  },
 }
